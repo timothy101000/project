@@ -1,0 +1,44 @@
+* {
+	color: rgb(23, 22, 26);
+}
+
+#navbar li a{
+	color: #f7f5f5;
+}
+#navbar li:hover a{
+	color: #051daa;
+	text-decoration: underline; 
+}
+
+input[name="quantity"] {
+	width: 40px;
+}
+.nav-background {
+	background-image: url("/background\ navbar.jpg");
+	background-size: cover;
+
+	/* Workaround for some mobile browsers */
+	min-height: 100%;
+  }
+
+  #footer {
+   
+	background-image:url(/footer.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+ 
+   }
+
+	
+
+	
+
+	
+	
